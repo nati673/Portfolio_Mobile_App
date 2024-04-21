@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { WebView } from "react-native-webview";
-import Constants from "expo-constants";
 import { StyleSheet, View, Text, Image } from "react-native";
 import NetInfo from "@react-native-community/netinfo";
 import NoInternet from "./assets/No_Internet.png";
@@ -46,8 +45,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
-    marginTop: Constants.statusBarHeight,
   },
   webview: {
     flex: 1,

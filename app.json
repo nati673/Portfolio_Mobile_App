@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Portfolio_Mobile_App",
+    "name": "Natnael Hailu",
     "slug": "Portfolio_Mobile_App",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nati24.Portfolio_Mobile_App"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3decef37-8749-4abd-9257-0432b1f738a0"
+      }
     }
   }
 }
